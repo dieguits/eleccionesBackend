@@ -43,6 +43,7 @@ function main() {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
+                    console.log('WE ARE WORKING!!!');
                     app = new app_1.App();
                     return [4 /*yield*/, app.listen()];
                 case 1:
